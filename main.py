@@ -46,12 +46,6 @@ async def on_ready():
             if not voice_client.is_connected():
                 break
 
-@bot.event
-async def on_disconnect():
-    global voice_client
-    if voice_client:
-        await voice_client.disconnect()
-
 
 bot_token = os.getenv("DISCORD_BOT_TOKEN")
 
