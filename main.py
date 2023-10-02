@@ -67,6 +67,7 @@ song_titles = {
     'soleil.wav': "Kitsui Koni - Soleil https://open.spotify.com/track/5IFVfoKmDO2d4IimOzNDhf?si=57bf7db893f3433f",
     'tant-didees.mp3': "Kitsui Koni - Tant d'idées",
     'un-dces-4.wav': "Koni - Un d'ces 4 https://open.spotify.com/track/7LPVUZrs0gWoEkuPvqDPv9?si=8e67bea4c5de4436",
+    'que-la-pluie.wav': "Koni - Que la pluie https://open.spotify.com/track/5ogQmIKhYohp3AAnWdrwGN?si=8a03023faee14239"
 }
 
 @bot.event
