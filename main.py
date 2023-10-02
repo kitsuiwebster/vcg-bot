@@ -37,7 +37,7 @@ song_titles = {
     'dans-mon-coeur-ca-fait.wav': 'Koni - Dans mon coeur ça fait... https://open.spotify.com/track/6BRmfVcURIDULLJP2OZjXk?si=853f97686e0e4d16',
     'demain-la-veille.mp3': 'Kitsui Koni - Demain la veille',
     'demain.mp3': 'Kitsui Koni - Demain',
-    'demi-coeur-mp3': 'Kitsui - Demi-coeur',
+    'demi-coeurp3': 'Kitsui - Demi-coeur',
     'des-fois.mp3': 'Kitsui - Des fois https://open.spotify.com/track/6nV7AV65kfkPIEieOOCGyS?si=2090118b72894cb2    ',
     'drive-by.wav': 'Kitsui Koni - Drive-by https://open.spotify.com/track/0CzWpj3eUWFHcTf7OE7UK0?si=067bd7956c574200',
     'emprisonne.wav': 'Kitsui Koni - Emprisonné https://open.spotify.com/track/3K5Jky5CdH6OE7ApgLQWl8?si=df7a6277e5eb4738',
