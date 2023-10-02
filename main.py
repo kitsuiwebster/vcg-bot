@@ -15,7 +15,7 @@ intents.voice_states = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 audio_files = [file for file in os.listdir("songs") if file.endswith(".mp3")]
-random.shuffle(audio_files)  # Shuffle the songs
+random.shuffle(audio_files)  
 voice_client = None
 playlist = []
 
@@ -27,7 +27,7 @@ song_titles = {
     'a-travers-les-gens.mp3': 'Kitsui Koni - À travers les gens',
     'anakin.mp3': 'Kitsui Koni - Anakin',
     'besoin-daide.mp3': "Kitsui Koni - Besoin d'aide https://open.spotify.com/track/5lB8V03QVazVN3LDEd96nX?si=17200cf453e04cff",
-    'bon-endroit.mp3': 'Kitsui Koni -Bon endroit https://open.spotify.com/track/476X6ywMJ0ouiG93OjJPR3?si=22cd02f95a33482f',
+    'bon-endroit.wav': 'Kitsui Koni - Bon endroit https://open.spotify.com/track/476X6ywMJ0ouiG93OjJPR3?si=22cd02f95a33482f',
     'bro.mp3': 'Kitsui (feat. Biaco) - Bro https://open.spotify.com/track/42Wwxi75o3SUZPjDa7msAS?si=e4fca77399d94f4d',
     'cheat-code.mp3': 'Kitsui Koni - Cheat-code',
     'comme-dhab.mp3': "Kitsui Koni - Comme d'hab",
