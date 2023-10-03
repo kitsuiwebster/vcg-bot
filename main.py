@@ -67,7 +67,6 @@ async def on_ready():
                         break
 
                     await asyncio.sleep(audio_duration)
-                    await voice_client.disconnect()
 
             except discord.errors.ConnectionClosed as e:
                 print(f"Disconnected from voice with error: {e}")
