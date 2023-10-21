@@ -15,6 +15,22 @@ intents.voice_states = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
+
+async def change_status():
+    await bot.wait_until_ready()
+
+    while not bot.is_closed():
+        server_count = len(bot.guilds)
+        total_member_count = sum(guild.member_count for guild in bot.guilds)
+        statuses = [
+            discord.Game(name=f"in {server_count} servers"),
+            discord.Game(name=f"with {total_member_count} members"),
+        ]
+
+        for status in statuses:
+            await bot.change_presence(activity=status)
+            await asyncio.sleep(10)
+
 audio_files = [file for file in os.listdir("songs") if file.endswith(".mp3")]
 random.shuffle(audio_files)  
 voice_client = None
@@ -25,6 +41,8 @@ song_titles = song_titles
 @bot.event
 async def on_ready():
     print(f'{bot.user.name} is damn connected !!')
+
+    bot.loop.create_task(change_status())
 
     target_voice_channel_id = 1150149299028635731
     target_voice_channel = bot.get_channel(target_voice_channel_id)

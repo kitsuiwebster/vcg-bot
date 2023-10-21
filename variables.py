@@ -20,7 +20,7 @@ song_titles = {
     'des-fois.mp3': 'Kitsui - Des fois https://open.spotify.com/track/6nV7AV65kfkPIEieOOCGyS?si=2090118b72894cb2    ',
     'drive-by.wav': 'Kitsui Koni - Drive-by https://open.spotify.com/track/0CzWpj3eUWFHcTf7OE7UK0?si=067bd7956c574200',
     'emprisonne.wav': 'Kitsui Koni - Emprisonné https://open.spotify.com/track/3K5Jky5CdH6OE7ApgLQWl8?si=df7a6277e5eb4738',
-    'en-pleine-tempete.wav': 'Koni - En pleine tepête',
+    'en-pleine-tempete.wav': 'Koni - En pleine tempête',
     'encore-seul.wav': 'Koni - Encore seul https://open.spotify.com/track/4Ynz0rfUU3kq2U1GGekMMI?si=2f62f53175804474',
     'est-ce-que-tes-triste.wav': "Koni - T'es triste ?? https://open.spotify.com/track/76ZEJo8NrrGmB79ieRP32Y?si=352727cabb5f41c7",
     'fais-le.mp3': 'Kitsui Koni - Fais-le',
