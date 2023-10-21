@@ -23,8 +23,10 @@ async def change_status():
         server_count = len(bot.guilds)
         total_member_count = sum(guild.member_count for guild in bot.guilds)
         statuses = [
-            discord.Game(name=f"in {server_count} servers"),
-            discord.Game(name=f"with {total_member_count} members"),
+            discord.Game(name="VCG!"),
+            discord.Game(name="Kitsui!"),
+            discord.Game(name="Koni!"),
+            discord.Game(name="Kitsui Koni!"),
         ]
 
         for status in statuses:
