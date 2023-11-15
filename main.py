@@ -6,7 +6,7 @@ from discord import FFmpegPCMAudio, ConnectionClosed, ClientException
 import asyncio
 from dotenv import load_dotenv
 from pydub import AudioSegment
-from variables import song_titles
+from song_titles import song_titles
 
 load_dotenv()
 
@@ -20,8 +20,6 @@ async def change_status():
     await bot.wait_until_ready()
 
     while not bot.is_closed():
-        server_count = len(bot.guilds)
-        total_member_count = sum(guild.member_count for guild in bot.guilds)
         statuses = [
             discord.Game(name="VCG!"),
             discord.Game(name="Kitsui!"),
