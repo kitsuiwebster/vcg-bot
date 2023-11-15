@@ -112,5 +112,17 @@ song_titles = {
     'la-passion.mp3': "Kitsui - La passion",
     'appart-44.mp3': "Kitsui - Appart 44",
     'orange-et-vert.mp3': "Kitsui - Orange et vert",
-    'nuage.mp3': "Kitsui - Nuage"
+    'nuage.mp3': "Kitsui - Nuage",
+    'loin.mp3': "Kitsui Koni - Loin",
+    'p2.mp3': "Kitsui Koni - P2",
+    'mysterio.mp3': "Kitsui Koni - Mystério",
+    'le-canape.mp3': "Kitsui KOni & Lun - Le canapé",
+    'en-scred.mp3': "Kitsui Koni - En scred",
+    'the-bus.mp3': "Kitsui & Bastian - The bus",
+    'amnesique.mp3': "Kitsui - Amnésique",
+    'dior.mp3': "Kitsui & Roman - Dior",
+    'ismael.mp3': "Kitsui - Ismaël",
+    'melodie.mp3': "Kitsui - Mélodie",
+    'niaks.mp3': "Kitsui - Niaks",
+    'intro.mp3': "Kitsui - Intro",
 }
