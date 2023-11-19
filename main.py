@@ -10,7 +10,6 @@ from pydub import AudioSegment
 from song_titles import song_titles
 
 load_dotenv()
-logging.basicConfig(level=logging.INFO)
 
 intents = discord.Intents.default()
 intents.typing = False
@@ -21,6 +20,11 @@ intents.guilds = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
 
 
 
@@ -33,7 +37,6 @@ class NextCog(commands.Cog):
     async def next(self, ctx):
         print("Next command triggered")
         voice_client = None
-        print(f"dans next dans commands.command: {voice_client}")
         for vc in self.bot.voice_clients:
             if vc.guild == ctx.guild:
                 voice_client = vc
@@ -46,7 +49,6 @@ class NextCog(commands.Cog):
         try:
 
             voice_client.stop()
-            print(f"dans next dans le try catch: {voice_client}")
             print("Next song will play")
             await play_random_song()
             
@@ -80,7 +82,6 @@ async def change_status():
 audio_files = [file for file in os.listdir("songs") if file.endswith(".mp3")]
 random.shuffle(audio_files)  
 voice_client = None
-print(f"DEHORS: {voice_client}")
 
 playlist = []
 
@@ -92,29 +93,25 @@ async def on_ready():
 
     global voice_client
 
-    target_voice_channel_id = 1150149299028635731
+    target_voice_channel_id = 1147460086181146687
     target_voice_channel = bot.get_channel(target_voice_channel_id)
 
     bot.loop.create_task(change_status())
     if target_voice_channel:
         if voice_client is None:
             voice_client = await target_voice_channel.connect()
-        print(f"le global dans bot.loop: {voice_client}")
         print("Bot is connected to the voice channel and starting to play music.")
         await play_random_song()
 
 @bot.event   
 async def play_random_song():
     global voice_client
-    print(f"dans play_random_song: {voice_client}")
-    target_voice_channel_id = 1150149299028635731
+    target_voice_channel_id = 1147460086181146687
     target_voice_channel = bot.get_channel(target_voice_channel_id)
-    print(f"le bot tg: {target_voice_channel}")
     bot.loop.create_task(change_status())
     if target_voice_channel:
         if voice_client is None:
             voice_client = await target_voice_channel.connect()
-        print(f"dans play_random_song2: {voice_client}")
     text_channel_id = 583667220861681664
     text_channel = bot.get_channel(text_channel_id)
     while True:
@@ -149,7 +146,7 @@ async def play_random_song():
                     await asyncio.sleep(audio_duration)
 
             except discord.errors.ConnectionClosed as e:
-                target_voice_channel_id = 1150149299028635731
+                target_voice_channel_id = 1147460086181146687
                 target_voice_channel = bot.get_channel(target_voice_channel_id)
                 print(f"Disconnected from voice with error: {e}")
                 print("Attempting to reconnect...")
@@ -170,7 +167,6 @@ async def run_bot():
 
 if __name__ == "__main__":
     try:
-        print(f"en bas la: {voice_client}")
         bot.loop.run_until_complete(setup(bot, voice_client))
         bot.run(bot_token)
     except KeyboardInterrupt:
