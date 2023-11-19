@@ -93,7 +93,7 @@ async def on_ready():
 
     global voice_client
 
-    target_voice_channel_id = 1147460086181146687
+    target_voice_channel_id = 1150149299028635731
     target_voice_channel = bot.get_channel(target_voice_channel_id)
 
     bot.loop.create_task(change_status())
@@ -106,7 +106,7 @@ async def on_ready():
 @bot.event   
 async def play_random_song():
     global voice_client
-    target_voice_channel_id = 1147460086181146687
+    target_voice_channel_id = 1150149299028635731
     target_voice_channel = bot.get_channel(target_voice_channel_id)
     bot.loop.create_task(change_status())
     if target_voice_channel:
@@ -146,7 +146,7 @@ async def play_random_song():
                     await asyncio.sleep(audio_duration)
 
             except discord.errors.ConnectionClosed as e:
-                target_voice_channel_id = 1147460086181146687
+                target_voice_channel_id = 1150149299028635731
                 target_voice_channel = bot.get_channel(target_voice_channel_id)
                 print(f"Disconnected from voice with error: {e}")
                 print("Attempting to reconnect...")
