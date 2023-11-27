@@ -128,7 +128,7 @@ song_titles = {
     'conso.mp3': "Koni - Conso (2022)",
     'fam.mp3': "Kitsui & Lun - Fam (2020)",
     'i-dream.mp3': "Kitsui & Biaco - I dream (2018)",
-    'kinto-un': "Kitsui - Kinto-un (2019)",
+    'kinto-un.mp3': "Kitsui - Kinto-un (2019)",
     'la-derniere-heure.mp3': "Kitsui & Jeune Ras - La dernière heure (2020)",
     'larme-du-ciel.mp3': "Koni - Larme du ciel",
     'le-jaune.mp3': "Kitsui Koni - Le jaune (2019)",
@@ -138,4 +138,6 @@ song_titles = {
     'pokimane.mp3': "Kitsui - Pokimane (2020)",
     'tayuya.mp3': "Kitsui - Tayuya (2019)",
     'webster.mp3': "Kitsui - Webster (2022)",
+    'toi-tu-ferais-quoi.mp3': "Kitsui Koni - Toi tu ferais quoi?",
+    'lile-japprend-lequilibre': "Kitsui Koni - L'île / J'apprend l'équilibre"
 }
