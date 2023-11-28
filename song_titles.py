@@ -139,5 +139,6 @@ song_titles = {
     'tayuya.mp3': "Kitsui - Tayuya (2019)",
     'webster.mp3': "Kitsui - Webster (2022)",
     'toi-tu-ferais-quoi.mp3': "Kitsui Koni - Toi tu ferais quoi?",
-    'lile-japprend-lequilibre.mp3': "Kitsui Koni - L'île / J'apprend l'équilibre"
+    'lile-japprend-lequilibre.mp3': "Kitsui Koni - L'île / J'apprend l'équilibre",
+    'demain-cest-loin.mp3': "Kitsui Koni - Demain c'est loin",
 }
