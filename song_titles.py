@@ -138,7 +138,7 @@ song_titles = {
     'pokimane.mp3': "Kitsui - Pokimane (2020)",
     'tayuya.mp3': "Kitsui - Tayuya (2019)",
     'webster.mp3': "Kitsui - Webster (2022)",
-    'toi-tu-ferais-quoi.mp3': "Kitsui Koni - Toi tu ferais quoi?",
-    'lile-japprend-lequilibre.mp3': "Kitsui Koni - L'île / J'apprend l'équilibre",
-    'demain-cest-loin.mp3': "Kitsui Koni - Demain c'est loin",
+    'toi-tu-ferais-quoi.mp3': "Kitsui Koni - Toi tu ferais quoi? (2023)",
+    'lile-japprend-lequilibre.mp3': "Kitsui Koni - L'île / J'apprend l'équilibre (2023)",
+    'demain-cest-loin.mp3': "Kitsui Koni - Demain c'est loin (2023)",
 }
