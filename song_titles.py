@@ -141,4 +141,6 @@ song_titles = {
     'toi-tu-ferais-quoi.mp3': "Kitsui Koni - Toi tu ferais quoi? (2023)",
     'lile-japprend-lequilibre.mp3': "Kitsui Koni - L'île / J'apprend l'équilibre (2023)",
     'demain-cest-loin.mp3': "Kitsui Koni - Demain c'est loin (2023)",
+    'petunia.mp3': "Kitsui - Pétunia (2023)",
+    'james-webb.mp3': "Kitsui - James Webb",
 }
