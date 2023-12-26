@@ -142,5 +142,6 @@ song_titles = {
     'lile-japprend-lequilibre.mp3': "Kitsui Koni - L'île / J'apprend l'équilibre (2023)",
     'demain-cest-loin.mp3': "Kitsui Koni - Demain c'est loin (2023)",
     'petunia.mp3': "Kitsui - Pétunia (2023)",
-    'james-webb.mp3': "Kitsui - James Webb",
+    'james-webb.mp3': "Kitsui - James Webb (2023)",
+    'facile.mp3': "Koni - Facile (2023)",
 }
