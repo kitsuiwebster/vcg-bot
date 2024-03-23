@@ -106,6 +106,7 @@ async def on_ready():
 @bot.event   
 async def play_random_song():
     global voice_client
+    target_voice_channel_id = 
     target_voice_channel = bot.get_channel(target_voice_channel_id)
     bot.loop.create_task(change_status())
     if target_voice_channel:
