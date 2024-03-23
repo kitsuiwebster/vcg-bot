@@ -69,10 +69,10 @@ async def change_status():
 
     while not bot.is_closed():
         statuses = [
-            discord.Game(name="VCG!"),
-            discord.Game(name="Kitsui!"),
-            discord.Game(name="Koni!"),
-            discord.Game(name="Kitsui Koni!"),
+            discord.Game(name="TG"),
+            discord.Game(name="Suce"),
+            discord.Game(name="Ma Beuteu"),
+            discord.Game(name="NON"),
         ]
 
         for status in statuses:
@@ -106,7 +106,6 @@ async def on_ready():
 @bot.event   
 async def play_random_song():
     global voice_client
-    target_voice_channel_id = 1150149299028635731
     target_voice_channel = bot.get_channel(target_voice_channel_id)
     bot.loop.create_task(change_status())
     if target_voice_channel:
