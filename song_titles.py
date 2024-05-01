@@ -72,7 +72,6 @@ song_titles = {
     'different.mp3': "Koni - Différent (2021)",
     'gave.mp3': "Koni - Gavé (2021)",
     'millions.mp3': "Koni - Millions (2021)",
-    'asap.mp3': "Kitsui - ASAP (2020)",
     'mango.mp3': "KItsui - Mango (2020)",
     'en-bateau.mp3': "Kitsui - En bateau (2020)",
     'arrete-de-penser.mp3': "Koni - Arrête de penser (2021)",
@@ -132,7 +131,6 @@ song_titles = {
     'la-derniere-heure.mp3': "Kitsui & Jeune Ras - La dernière heure (2020)",
     'larme-du-ciel.mp3': "Koni - Larme du ciel",
     'le-jaune.mp3': "Kitsui Koni - Le jaune (2019)",
-    'le-plaisir-detre-assombri.mp3': "Kitsui - Le plaisir d'être assombri (2019)",
     'loin-de-la.mp3': "Kitsui & Bastian - Loin de là",
     'nachave.mp3': "Kitsui - Nachave (2019)",
     'pokimane.mp3': "Kitsui - Pokimane (2020)",
@@ -146,5 +144,6 @@ song_titles = {
     'facile.mp3': "Koni - Facile (2023)",
     'ma-douceur.mp3': "Kitsui - Ma douceur (2020)",
     'another-one.mp3': "Kitsui - Another one (2020)",
-    'dawg.mp3': "Kitsui & Redemon Choby - Dawg (2020)",
+    'ou-men-aller.mp3': "Kitsui Koni - Où m'en aller? (2024)",
+    'jabandonne-pas.mp3': "Kitsui Koni - J'abandonne pas (2024)"
 }
