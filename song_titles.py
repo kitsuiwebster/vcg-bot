@@ -145,5 +145,6 @@ song_titles = {
     'ma-douceur.mp3': "Kitsui - Ma douceur (2020)",
     'another-one.mp3': "Kitsui - Another one (2020)",
     'ou-men-aller.mp3': "Kitsui Koni - Où m'en aller? (2024)",
-    'jabandone-pas.mp3': "Kitsui Koni - J'abandonne pas (2024)"
+    'jabandone-pas.mp3': "Kitsui Koni - J'abandonne pas (2024)",
+    'ou-suis-je.mp3': "Kitsui - Où suis-je? (2024)",
 }
